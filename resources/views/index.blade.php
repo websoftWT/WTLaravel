@@ -20,25 +20,25 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700">
 
     <!-- ==== Font Awesome ==== -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
     
     <!-- ==== Bootstrap Framework ==== -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     
     <!-- ==== Bar Rating Plugin ==== -->
-    <link rel="stylesheet" href="css/fontawesome-stars-o.min.css">
+    <link rel="stylesheet" href="{{asset('css/fontawesome-stars-o.min.css')}}">
     
     <!-- ==== Main Stylesheet ==== -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{asset('css/style.css') }}">
     
     <!-- ==== Responsive Stylesheet ==== -->
-    <link rel="stylesheet" href="css/responsive-style.css">
+    <link rel="stylesheet" href="{{asset('css/responsive-style.css')}}">
 
     <!-- ==== Theme Color Stylesheet ==== -->
-    <link rel="stylesheet" href="css/colors/theme-color-1.css" id="changeColorScheme">
+    <link rel="stylesheet" href="{{asset('css/colors/theme-color-1.css')}}" id="changeColorScheme">
     
     <!-- ==== Custom Stylesheet ==== -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="{{asset('css/custom.css')}}">
 
     <!-- ==== HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries ==== -->
     <!--[if lt IE 9]>
@@ -82,7 +82,7 @@
                                 <!-- Post Item Start -->
                                 <div class="post--item post--layout-1 post--title-larger">
                                     <div class="post--img">
-                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/banner-01.jpg" alt=""></a>
+                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/banner-01.jpg')}}" alt=""></a>
                                         <a href="#" class="cat">Category</a>
                                        
                                         <div class="post--info">
@@ -106,7 +106,7 @@
                                         <!-- Post Item Start -->
                                         <div class="post--item post--layout-1 post--title-large">
                                             <div class="post--img">
-                                                <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/banner-02.jpg" alt=""></a>
+                                                <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/banner-02.jpg')}}" alt=""></a>
                                                 <a href="#" class="cat">Category</a>
                                              
 
@@ -128,7 +128,7 @@
                                         <!-- Post Item Start -->
                                         <div class="post--item post--layout-1 post--title-large">
                                             <div class="post--img">
-                                                <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/banner-03.jpg" alt=""></a>
+                                                <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/banner-03.jpg')}}" alt=""></a>
                                                 <a href="#" class="cat">Category</a>
                                             
 
@@ -151,7 +151,7 @@
                                         <!-- Post Item Start -->
                                         <div class="post--item post--layout-1 post--title-larger">
                                             <div class="post--img">
-                                                <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/banner-04.jpg" alt=""></a>
+                                                <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/banner-04.jpg')}}" alt=""></a>
                                                 <a href="#" class="cat">Category</a>
                                              
 
@@ -209,7 +209,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-1">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/technology-01.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/technology-01.jpg')}}" alt=""></a>
                                                         <a href="#" class="cat">Computer</a>
                                                         <a href="#" class="icon"><i class="fa fa-heart-o"></i></a>
 
@@ -231,7 +231,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/technology-02.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/technology-02.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -251,7 +251,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/technology-03.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/technology-03.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -271,7 +271,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/technology-04.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/technology-04.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -291,7 +291,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/technology-05.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/technology-05.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -346,7 +346,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-1">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/technology-01.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/technology-01.jpg')}}" alt=""></a>
                                                         <a href="#" class="cat">Computer</a>
                                                         <a href="#" class="icon"><i class="fa fa-heart-o"></i></a>
 
@@ -368,7 +368,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/technology-02.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/technology-02.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -388,7 +388,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/technology-03.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/technology-03.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -408,7 +408,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/technology-04.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/technology-04.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -428,7 +428,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/technology-05.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/technology-05.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -485,7 +485,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-2">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/finance-01.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/finance-01.jpg')}}" alt=""></a>
                                                         <a href="#" class="cat">Business</a>
                                                         <a href="#" class="icon"><i class="fa fa-star-o"></i></a>
 
@@ -516,7 +516,7 @@
                                                         <!-- Post Item Start -->
                                                         <div class="post--item post--layout-2">
                                                             <div class="post--img">
-                                                                <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/finance-02.jpg" alt=""></a>
+                                                                <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/finance-02.jpg')}}" alt=""></a>
 
                                                                 <div class="post--info">
                                                                     <ul class="nav meta">
@@ -537,7 +537,7 @@
                                                         <!-- Post Item Start -->
                                                         <div class="post--item post--layout-2">
                                                             <div class="post--img">
-                                                                <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/finance-03.jpg" alt=""></a>
+                                                                <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/finance-03.jpg')}}" alt=""></a>
 
                                                                 <div class="post--info">
                                                                     <ul class="nav meta">
@@ -564,7 +564,7 @@
                                                         <!-- Post Item Start -->
                                                         <div class="post--item post--layout-2">
                                                             <div class="post--img">
-                                                                <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/finance-04.jpg" alt=""></a>
+                                                                <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/finance-04.jpg')}}" alt=""></a>
 
                                                                 <div class="post--info">
                                                                     <ul class="nav meta">
@@ -585,7 +585,7 @@
                                                         <!-- Post Item Start -->
                                                         <div class="post--item post--layout-2">
                                                             <div class="post--img">
-                                                                <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/finance-05.jpg" alt=""></a>
+                                                                <a href="news-single-v1.blade.php" class="thumb"><img src="{{ asset('img/home-img/finance-05.jpg') }}" alt=""></a>
 
                                                                 <div class="post--info">
                                                                     <ul class="nav meta">
@@ -642,7 +642,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-1">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/politics-01.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/politics-01.jpg')}}" alt=""></a>
                                                         <a href="#" class="cat">Election</a>
                                                         <a href="#" class="icon"><i class="fa fa-fire"></i></a>
 
@@ -669,7 +669,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-2">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/politics-02.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/politics-02.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -689,7 +689,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-2">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/politics-03.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/politics-03.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -714,7 +714,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-2">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/politics-04.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/politics-04.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -734,7 +734,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-2">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/politics-05.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/politics-05.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -789,7 +789,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-1">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/sports-01.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/sports-01.jpg')}}" alt=""></a>
                                                         <a href="#" class="cat">Basketball</a>
                                                         <a href="#" class="icon"><i class="fa fa-eye"></i></a>
 
@@ -811,7 +811,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/sports-02.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/sports-02.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -831,7 +831,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/sports-03.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/sports-03.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -851,7 +851,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/sports-04.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/sports-04.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -871,7 +871,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/sports-05.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/sports-05.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -928,7 +928,7 @@
                                 <!-- Ad Widget Start -->
                                 <div class="ad--widget">
                                     <a href="#">
-                                        <img src="img/ads-img/ad-300x250-2.jpg" alt="">
+                                        <img src="{{asset('img/ads-img/ad-300x250-2.jpg')}}" alt="">
                                     </a>
                                 </div>
                                 <!-- Ad Widget End -->
@@ -966,7 +966,7 @@
                                 <!-- Post Item Start -->
                                 <div class="post--item post--layout-1 post--type-video post--title-large">
                                     <div class="post--img">
-                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/audio-video-01.jpg" alt=""></a>
+                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/audio-video-01.jpg')}}" alt=""></a>
                                         <a href="#" class="cat">Wave</a>
                                         <a href="#" class="icon"><i class="fa fa-eye"></i></a>
 
@@ -995,7 +995,7 @@
                                         <!-- Post Item Start -->
                                         <div class="post--item post--type-audio post--layout-3">
                                             <div class="post--img">
-                                                <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/audio-video-02.jpg" alt=""></a>
+                                                <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/audio-video-02.jpg')}}" alt=""></a>
 
                                                 <div class="post--info">
                                                     <ul class="nav meta">
@@ -1015,7 +1015,7 @@
                                         <!-- Post Item Start -->
                                         <div class="post--item post--type-video post--layout-3">
                                             <div class="post--img">
-                                                <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/audio-video-03.jpg" alt=""></a>
+                                                <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/audio-video-03.jpg')}}" alt=""></a>
 
                                                 <div class="post--info">
                                                     <ul class="nav meta">
@@ -1035,7 +1035,7 @@
                                         <!-- Post Item Start -->
                                         <div class="post--item post--type-video post--layout-3">
                                             <div class="post--img">
-                                                <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/audio-video-04.jpg" alt=""></a>
+                                                <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/audio-video-04.jpg')}}" alt=""></a>
 
                                                 <div class="post--info">
                                                     <ul class="nav meta">
@@ -1055,7 +1055,7 @@
                                         <!-- Post Item Start -->
                                         <div class="post--item post--type-audio post--layout-3">
                                             <div class="post--img">
-                                                <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/audio-video-05.jpg" alt=""></a>
+                                                <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/audio-video-05.jpg')}}" alt=""></a>
 
                                                 <div class="post--info">
                                                     <ul class="nav meta">
@@ -1088,7 +1088,7 @@
                 <!-- Advertisement Start -->
                 <div class="ad--space pd--30-0">
                     <a href="#">
-                        <img src="img/ads-img/ad-970x90.jpg" alt="" class="center-block">
+                        <img src="{{asset('img/ads-img/ad-970x90.jpg')}}" alt="" class="center-block">
                     </a>
                 </div>
                 <!-- Advertisement End -->
@@ -1125,7 +1125,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-1">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/health-and-fitness-01.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/health-and-fitness-01.jpg')}}" alt=""></a>
                                                         <a href="#" class="cat">Business</a>
                                                         <a href="#" class="icon"><i class="fa fa-star-o"></i></a>
 
@@ -1147,7 +1147,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/health-and-fitness-02.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/health-and-fitness-02.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1167,7 +1167,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/health-and-fitness-03.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/health-and-fitness-03.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1187,7 +1187,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/health-and-fitness-04.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/health-and-fitness-04.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1207,7 +1207,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/health-and-fitness-05.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/health-and-fitness-05.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1262,7 +1262,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-1">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/lifestyle-01.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/lifestyle-01.jpg')}}" alt=""></a>
                                                         <a href="#" class="cat">Fashion</a>
                                                         <a href="#" class="icon"><i class="fa fa-heart-o"></i></a>
 
@@ -1289,7 +1289,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-2">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/lifestyle-02.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/lifestyle-02.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1309,7 +1309,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-2">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/lifestyle-03.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/lifestyle-03.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1334,7 +1334,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-2">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/lifestyle-04.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/lifestyle-04.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1354,7 +1354,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-2">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/lifestyle-05.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/lifestyle-05.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1409,7 +1409,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-1">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/food-and-resturent-01.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('')}}img/home-img/food-and-resturent-01.jpg" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1434,7 +1434,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-1">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/food-and-resturent-02.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/food-and-resturent-02.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1454,7 +1454,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-1">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/food-and-resturent-03.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/food-and-resturent-03.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1509,7 +1509,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-1 post--title-large">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/photo-gallery-01.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/photo-gallery-01.jpgimg/home-img/photo-gallery-01.jpg')}}" alt=""></a>
                                                         <a href="#" class="cat">Serfer</a>
                                                         <a href="#" class="icon"><i class="fa fa-eye"></i></a>
 
@@ -1531,7 +1531,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-1">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/photo-gallery-02.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/photo-gallery-02.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1551,7 +1551,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-1">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/photo-gallery-03.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/photo-gallery-03.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1571,7 +1571,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-1">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/home-img/photo-gallery-04.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/home-img/photo-gallery-04.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1751,13 +1751,13 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <a href="#">
-                                                <img src="img/ads-img/ad-150x150-1.jpg" alt="">
+                                                <img src="{{asset('img/ads-img/ad-150x150-1.jpg')}}" alt="">
                                             </a>
                                         </div>
 
                                         <div class="col-sm-6">
                                             <a href="#">
-                                                <img src="img/ads-img/ad-150x150-2.jpg" alt="">
+                                                <img src="{{asset('img/ads-img/ad-150x150-2.jpg')}}" alt="">
                                             </a>
                                         </div>
                                     </div>
@@ -1793,7 +1793,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <span class="thumb"><img src="img/widgets-img/readers-opinion-01.png" alt=""></span>
+                                                        <span class="thumb"><img src="{{asset('img/widgets-img/readers-opinion-01.png')}}" alt=""></span>
 
                                                         <div class="post--info">
                                                             <div class="title">
@@ -1813,7 +1813,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <span class="thumb"><img src="img/widgets-img/readers-opinion-02.png" alt=""></span>
+                                                        <span class="thumb"><img src="{{asset('img/widgets-img/readers-opinion-02.png')}}" alt=""></span>
 
                                                         <div class="post--info">
                                                             <div class="title">
@@ -1833,7 +1833,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <span class="thumb"><img src="img/widgets-img/readers-opinion-03.png" alt=""></span>
+                                                        <span class="thumb"><img src="{{asset('img/widgets-img/readers-opinion-03.png')}}" alt=""></span>
 
                                                         <div class="post--info">
                                                             <div class="title">
@@ -1890,7 +1890,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/widgets-img/editors-choice-01.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/widgets-img/editors-choice-01.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1910,7 +1910,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/widgets-img/editors-choice-02.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/widgets-img/editors-choice-02.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1930,7 +1930,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/widgets-img/editors-choice-03.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/widgets-img/editors-choice-03.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -1950,7 +1950,7 @@
                                                 <!-- Post Item Start -->
                                                 <div class="post--item post--layout-3">
                                                     <div class="post--img">
-                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="img/widgets-img/editors-choice-04.jpg" alt=""></a>
+                                                        <a href="news-single-v1.blade.php" class="thumb"><img src="{{asset('img/widgets-img/editors-choice-04.jpg')}}" alt=""></a>
 
                                                         <div class="post--info">
                                                             <ul class="nav meta">
@@ -2025,49 +2025,49 @@
     <!-- Back To Top Button End -->
 
     <!-- ==== jQuery Library ==== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
 
     <!-- ==== Bootstrap Framework ==== -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
 
     <!-- ==== StickyJS Plugin ==== -->
-    <script src="js/jquery.sticky.min.js"></script>
+    <script src="{{asset('js/jquery.sticky.min.js')}}"></script>
 
     <!-- ==== HoverIntent Plugin ==== -->
-    <script src="js/jquery.hoverIntent.min.js"></script>
+    <script src="{{asset('js/jquery.hoverIntent.min.js')}}"></script>
 
     <!-- ==== Marquee Plugin ==== -->
-    <script src="js/jquery.marquee.min.js"></script>
+    <script src="{{asset('js/jquery.marquee.min.js')}}"></script>
 
     <!-- ==== Validation Plugin ==== -->
-    <script src="js/jquery.validate.min.js"></script>
+    <script src="{{asset('js/jquery.validate.min.js')}}"></script>
 
     <!-- ==== Isotope Plugin ==== -->
-    <script src="js/isotope.min.js"></script>
+    <script src="{{asset('js/isotope.min.js')}}"></script>
 
     <!-- ==== Resize Sensor Plugin ==== -->
-    <script src="js/resizesensor.min.js"></script>
+    <script src="{{asset('js/resizesensor.min.js')}}"></script>
 
     <!-- ==== Sticky Sidebar Plugin ==== -->
-    <script src="js/theia-sticky-sidebar.min.js"></script>
+    <script src="{{asset('js/theia-sticky-sidebar.min.js')}}"></script>
 
     <!-- ==== Zoom Plugin ==== -->
-    <script src="js/jquery.zoom.min.js"></script>
+    <script src="{{asset('js/jquery.zoom.min.js')}}"></script>
 
     <!-- ==== Bar Rating Plugin ==== -->
-    <script src="js/jquery.barrating.min.js"></script>
+    <script src="{{asset('js/jquery.barrating.min.js')}}"></script>
 
     <!-- ==== Countdown Plugin ==== -->
-    <script src="js/jquery.countdown.min.js"></script>
+    <script src="{{asset('js/jquery.countdown.min.js')}}"></script>
 
     <!-- ==== RetinaJS Plugin ==== -->
-    <script src="js/retina.min.js"></script>
+    <script src="{{asset('js/retina.min.js')}}"></script>
 
     <!-- ==== Google Map API ==== -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK9f7sXWmqQ1E-ufRXV3VpXOn_ifKsDuc"></script>
 
     <!-- ==== Main JavaScript ==== -->
-    <script src="js/main.js"></script>
+    <script src="{{asset('js/main.js')}}"></script>
 
 </body>
 </html>

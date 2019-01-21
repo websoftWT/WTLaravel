@@ -39,8 +39,8 @@
                     <!-- Header Logo Start -->
                     <div class="header--logo float--left float--sm-none text-sm-center">
                         <h1 class="h1">
-                            <a href="home-1.html" class="btn-link">
-                                <img src="img/logo.png" alt="USNews Logo">
+                            <a href="" class="btn-link">
+                                <img src="{{asset('img/logo.png')}}" alt="USNews Logo">
                                 <span class="hidden">USNews Logo</span>
                             </a>
                         </h1>
@@ -109,13 +109,13 @@
                                 </ul>
                             </li> -->
                            
-                            <li><a href="national.html">Home</a></li>
-                            <li><a href="financial.html">Financial</a></li>
-                            <li><a href="entertainment.html">Entertainment</a></li>
-                            <li><a href="lifestyle.html">Lifestyle</a></li>
-                            <li><a href="technology.html">Technology</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Financial</a></li>
+                            <li><a href="">Entertainment</a></li>
+                            <li><a href="">Lifestyle</a></li>
+                            <li><a href="">Technology</a></li>
                            
-                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="">About Us</a></li>
                           
                           
                         </ul>
