@@ -20,25 +20,25 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700">
 
     <!-- ==== Font Awesome ==== -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
 
     <!-- ==== Bootstrap Framework ==== -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
 
     <!-- ==== Bar Rating Plugin ==== -->
-    <link rel="stylesheet" href="css/fontawesome-stars-o.min.css">
+    <link rel="stylesheet" href="{{asset('css/fontawesome-stars-o.min.css')}}">
 
     <!-- ==== Main Stylesheet ==== -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
     <!-- ==== Responsive Stylesheet ==== -->
-    <link rel="stylesheet" href="css/responsive-style.css">
+    <link rel="stylesheet" href="{{ asset('css/responsive-style.css') }}">
 
     <!-- ==== Theme Color Stylesheet ==== -->
-    <link rel="stylesheet" href="css/colors/theme-color-1.css" id="changeColorScheme">
+    <link rel="stylesheet" href="{{asset('css/colors/theme-color-1.css')}}" id="changeColorScheme">
 
     <!-- ==== Custom Stylesheet ==== -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="{{asset('css/custom.css')}}">
 
     <!-- ==== HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries ==== -->
     <!--[if lt IE 9]>
@@ -76,7 +76,7 @@
                 <div class="float--right float--xs-none text-xs-center">
                     <!-- Header Topbar Action Start -->
                     <ul class="header--topbar-action nav">
-                        <li><a href="login.html"><i class="fa fm fa-user-o"></i>Login/Register</a></li>
+                        <li><a href=""><i class="fa fm fa-user-o"></i>Login/Register</a></li>
                     </ul>
                     <!-- Header Topbar Action End -->
 
@@ -114,8 +114,8 @@
                 <!-- Header Logo Start -->
                 <div class="header--logo float--left float--sm-none text-sm-center">
                     <h1 class="h1">
-                        <a href="home-1.html" class="btn-link">
-                            <img src="img/logo.png" alt="USNews Logo">
+                        <a href="" class="btn-link">
+                            <img src="{{asset('img/logo.png')}}" alt="USNews Logo">
                             <span class="hidden">USNews Logo</span>
                         </a>
                     </h1>
@@ -125,7 +125,7 @@
                 <!-- Header Ad Start -->
                 <div class="header--ad float--right float--sm-none hidden-xs">
                     <a href="#">
-                        <img src="img/ads-img/ad-728x90-01.jpg" alt="Advertisement">
+                        <img src="{{asset('img/ads-img/ad-728x90-01.jpg'))}}" alt="Advertisement">
                     </a>
                 </div>
                 <!-- Header Ad End -->
@@ -152,43 +152,43 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<i class="fa flm fa-angle-down"></i></a>
 
                             <ul class="dropdown-menu">
-                                <li><a href="home-1.html">Home Default</a></li>
-                                <li><a href="home-1-boxed.html">Home Boxed</a></li>
-                                <li><a href="home-1-rtl.html">Home RTL</a></li>
-                                <li><a href="home-1-rtl-boxed.html">Home RTL Boxed</a></li>
+                                <li><a href="">Home Default</a></li>
+                                <li><a href="">Home Boxed</a></li>
+                                <li><a href="">Home RTL</a></li>
+                                <li><a href="">Home RTL Boxed</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home Versions<i class="fa flm fa-angle-right"></i></a>
 
                                     <ul class="dropdown-menu">
-                                        <li><a href="home-1.html">Home Version 01</a></li>
-                                        <li><a href="home-2.html">Home Version 02</a></li>
-                                        <li><a href="home-3.html">Home Version 03</a></li>
-                                        <li><a href="home-4.html">Home Version 04</a></li>
-                                        <li><a href="home-5.html">Home Version 05</a></li>
-                                        <li><a href="home-6.html">Home Version 06</a></li>
-                                        <li><a href="home-7.html">Home Version 07</a></li>
-                                        <li><a href="home-8.html">Home Version 08</a></li>
+                                        <li><a href="">Home Version 01</a></li>
+                                        <li><a href="">Home Version 02</a></li>
+                                        <li><a href="">Home Version 03</a></li>
+                                        <li><a href="">Home Version 04</a></li>
+                                        <li><a href="">Home Version 05</a></li>
+                                        <li><a href="">Home Version 06</a></li>
+                                        <li><a href="">Home Version 07</a></li>
+                                        <li><a href="">Home Version 08</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu Versions<i class="fa flm fa-angle-right"></i></a>
 
                                     <ul class="dropdown-menu">
-                                        <li><a href="home-1.html">Home Menu V1</a></li>
-                                        <li><a href="home-menu-v2.html">Home Menu V2</a></li>
-                                        <li><a href="home-menu-v3.html">Home Menu V3</a></li>
-                                        <li><a href="home-menu-v4.html">Home Menu V4</a></li>
-                                        <li><a href="home-menu-v5.html">Home Menu V5</a></li>
-                                        <li><a href="home-menu-v6.html">Home Menu V6</a></li>
-                                        <li><a href="home-menu-v7.html">Home Menu V7</a></li>
-                                        <li><a href="home-menu-v8.html">Home Menu V8</a></li>
-                                        <li><a href="home-menu-v9.html">Home Menu V9</a></li>
+                                        <li><a href="">Home Menu V1</a></li>
+                                        <li><a href="">Home Menu V2</a></li>
+                                        <li><a href="">Home Menu V3</a></li>
+                                        <li><a href="">Home Menu V4</a></li>
+                                        <li><a href="">Home Menu V5</a></li>
+                                        <li><a href="">Home Menu V6</a></li>
+                                        <li><a href="">Home Menu V7</a></li>
+                                        <li><a href="">Home Menu V8</a></li>
+                                        <li><a href="">Home Menu V9</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
                         <li class="dropdown megamenu filter">
-                            <a href="world-news.html" class="dropdown-toggle" data-toggle="dropdown">Worlds News<i class="fa flm fa-angle-down"></i></a>
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">Worlds News<i class="fa flm fa-angle-down"></i></a>
 
                             <ul class="dropdown-menu">
                                 <li>
@@ -223,8 +223,8 @@
                                                 <ul class="row" data-ajax-content="inner">
                                                     <li class="col-md-3">
                                                         <div class="img">
-                                                            <a href="news-single-v1.html" class="thumb">
-                                                                <img src="img/megamenu-img/post-01.jpg" alt="">
+                                                            <a href="news-single-v1.blade.php" class="thumb">
+                                                                <img src="{{asset('img/megamenu-img/post-01.jpg')}}" alt="">
                                                             </a>
 
                                                             <a href="#" class="cat">Beach</a>
@@ -232,13 +232,13 @@
                                                             <a href="#" class="icon"><i class="fa fa-eye"></i></a>
                                                         </div>
 
-                                                        <a href="news-single-v1.html" class="title">It is a long established fact that a reader will be distracted by</a>
+                                                        <a href="news-single-v1.blade.php" class="title">It is a long established fact that a reader will be distracted by</a>
                                                     </li>
 
                                                     <li class="col-md-3">
                                                         <div class="img">
-                                                            <a href="news-single-v1.html" class="thumb">
-                                                                <img src="img/megamenu-img/post-02.jpg" alt="">
+                                                            <a href="news-single-v1.blade.php" class="thumb">
+                                                                <img src="{{asset('img/megamenu-img/post-02.jpg')}}" alt="">
                                                             </a>
 
                                                             <a href="#" class="cat">News</a>
@@ -246,13 +246,13 @@
                                                             <a href="#" class="icon"><i class="fa fa-star-o"></i></a>
                                                         </div>
 
-                                                        <a href="news-single-v1.html" class="title">It is a long established fact that a reader will be distracted by</a>
+                                                        <a href="news-single-v1.blade.php" class="title">It is a long established fact that a reader will be distracted by</a>
                                                     </li>
 
                                                     <li class="col-md-3">
                                                         <div class="img">
-                                                            <a href="news-single-v1.html" class="thumb">
-                                                                <img src="img/megamenu-img/post-03.jpg" alt="">
+                                                            <a href="news-single-v1.blade.php" class="thumb">
+                                                                <img src="{{asset('img/megamenu-img/post-03.jpg')}}" alt="">
                                                             </a>
 
                                                             <a href="#" class="cat">Ice Hiking</a>
@@ -260,13 +260,13 @@
                                                             <a href="#" class="icon"><i class="fa fa-flash"></i></a>
                                                         </div>
 
-                                                        <a href="news-single-v1.html" class="title">It is a long established fact that a reader will be distracted by</a>
+                                                        <a href="news-single-v1.blade.php" class="title">It is a long established fact that a reader will be distracted by</a>
                                                     </li>
 
                                                     <li class="col-md-3">
                                                         <div class="img">
-                                                            <a href="news-single-v1.html" class="thumb">
-                                                                <img src="img/megamenu-img/post-04.jpg" alt="">
+                                                            <a href="news-single-v1.blade.php" class="thumb">
+                                                                <img src="{{asset('img/megamenu-img/post-04.jpg')}}" alt="">
                                                             </a>
 
                                                             <a href="#" class="cat">Mountain</a>
@@ -274,7 +274,7 @@
                                                             <a href="#" class="icon"><i class="fa fa-heart-o"></i></a>
                                                         </div>
 
-                                                        <a href="news-single-v1.html" class="title">It is a long established fact that a reader will be distracted by</a>
+                                                        <a href="news-single-v1.blade.php" class="title">It is a long established fact that a reader will be distracted by</a>
                                                     </li>
                                                 </ul>
 
@@ -292,7 +292,7 @@
                                                     <i class="fa fa-long-arrow-left"></i>
                                                 </a>
 
-                                                <a href="world-news.html" class="all" title="View All" data-toggle="tooltip">
+                                                <a href="" class="all" title="View All" data-toggle="tooltip">
                                                     <i class="fa fa-th-large"></i>
                                                 </a>
 
@@ -306,13 +306,13 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="national.html">National</a></li>
-                        <li><a href="financial.html">Financial</a></li>
-                        <li><a href="entertainment.html">Entertainment</a></li>
-                        <li><a href="lifestyle.html">Lifestyle</a></li>
-                        <li><a href="technology.html">Technology</a></li>
+                        <li><a href="">National</a></li>
+                        <li><a href="">Financial</a></li>
+                        <li><a href="">Entertainment</a></li>
+                        <li><a href="">Lifestyle</a></li>
+                        <li><a href="">Technology</a></li>
                         <li class="dropdown megamenu posts">
-                            <a href="travel.html" class="dropdown-toggle" data-toggle="dropdown">Travel<i class="fa flm fa-angle-down"></i></a>
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">Travel<i class="fa flm fa-angle-down"></i></a>
 
                             <ul class="dropdown-menu">
                                 <li>
@@ -321,7 +321,7 @@
                                         <ul class="row" data-ajax-content="inner">
                                             <li class="col-md-3">
                                                 <div class="img">
-                                                    <a href="news-single-v1.html" class="thumb">
+                                                    <a href="news-single-v1.blade.php" class="thumb">
                                                         <img src="img/megamenu-img/post-01.jpg" alt="">
                                                     </a>
 

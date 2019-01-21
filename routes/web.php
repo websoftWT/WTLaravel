@@ -15,9 +15,13 @@
 
 Auth::routes();
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/addCatagory','CatagoryController@create')->name('addCategory');
+
+Route::post('/addCatagory','CatagoryController@store')->name('catagory.store');
 
