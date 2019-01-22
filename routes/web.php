@@ -21,7 +21,18 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/addCatagory','CatagoryController@create')->name('addCategory');
+Route::get('/layouts/catagory/add', 'CatagoryController@create')->name('catagory.add');
 
-Route::post('/addCatagory','CatagoryController@store')->name('catagory.store');
+Route::post('/layouts/catagory/add','CatagoryController@store')->name('catagory.store');
+
+Route::get('/layouts/catagory/manage', 'CatagoryController@manage')->name('catagory.manage');
+
+Route::post('/editCategory','CatagoryController@editCategory')->name('catagory.edit');
+
+Route::post('/deleteCategory','CatagoryController@removeCategory')->name('catagory.remove');
+
+Route::get('/layouts/News/add','NewsController@create')->name('news.add');
+
+Route::post('/layouts/News/add','NewsController@store')->name('news.store');
+
 

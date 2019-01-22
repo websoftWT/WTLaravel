@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Catagory;
+use App\News;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 
-class CatagoryController extends Controller
+class NewsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -24,13 +25,7 @@ class CatagoryController extends Controller
      */
     public function create()
     {
-        return view ('layouts.catagory.add');;
-    }
-
-    public function manage()
-    {
-        $catagories = Catagory::orderBy('created_at','dosc')->get();
-        return view ('layouts.catagory.manage')->with('catagories',$catagories);
+        return view ('layouts.News.add');
     }
 
     /**
@@ -41,29 +36,32 @@ class CatagoryController extends Controller
      */
     public function store(Request $request)
     {
-        $category= new Catagory();
-
         $this->validate($request, [
             'title' => 'required|min:3',
-            'details' => 'required|min:10'
+            'short-details' => 'required|min:10',
+            'news-quotes'=>'required',
+            'news-details'=>'required|min:10',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'tag'=>'required',
+            'page-description'=>'required|min:10'
         ]);
-        Catagory::create([
+        News::create([
             'title' => $request->title,
-            'details' => $request->details,
+            'catagory'=>$request->catagory,
+            'short-details' => $request->short-details,
+            'news-quotes'=>$request->news-quotes,
+            'news-details'=>$request->news-details,
+            'tag'=>$request->tag,
+            'page-description'=>$request->page-description,
             'slug'=>str_slug($request->input('title'), '-')
         ]);
-        return redirect(route('catagory.add'))->with('message','catagory added successfully');
-    }
 
-    public function removeCategory(Request $request) {
-        $catagory = Catagory::findOrFail($request->id);
-        $catagory->delete();
-    }
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $image->move(public_path(). '/',$image->getClientOriginalName());
+        }
 
-    public function editCategory(Request $request) {
-        $catagory = Catagory::findOrFail($request->id);
-        $catagory->title = $request->title;
-        $catagory->update();
+        return redirect(route('news.add'))->with('message','news added successfully');
     }
 
     /**
@@ -76,6 +74,12 @@ class CatagoryController extends Controller
     {
         //
     }
+
+    public function getAdd()
+    {
+
+    }
+
 
     /**
      * Show the form for editing the specified resource.
