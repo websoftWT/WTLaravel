@@ -16,15 +16,15 @@
                                 <th>Edit</th>
                                 <th>Remove</th>
                             </tr>
-                            @foreach($catagories as $i=>$category)
+                            @foreach($catagories as $i=>$catagory)
                                 <tr>
                                     <td>{{ $i + 1 }}</td>
-                                    <td>{{ $category->title }}</td>
-                                    <td>{{ $category->details }}</td>
-                                    <td>{{ $category->created_at }}</td>
-                                    <td>{{ $category->updated_at }}</td>
-                                    <td><a href="{{route('catagory.edit')}}"><span id="{{ $category->id }}" class="btn btn-warning">Edit</span></a></td>
-                                    <td><a href="{{route('catagory.remove')}}"><span id="{{ $category->id }}" class="btn btn-danger">Remove</span></a></td>
+                                    <td>{{ $catagory->title }}</td>
+                                    <td>{{ $catagory->details }}</td>
+                                    <td>{{ $catagory->created_at }}</td>
+                                    <td>{{ $catagory->updated_at }}</td>
+                                    <td><a href="{{route('catagory.edit')}}"><span id="{{ $catagory->id }}" class="btn btn-warning">Edit</span></a></td>
+                                    <td><a href="{{route('catagory.remove')}}"><span id="{{ $catagory->id }}" class="btn btn-danger">Remove</span></a></td>
                                 </tr>
                             @endforeach
                         </table>

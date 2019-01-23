@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Catagory;
 use App\News;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
@@ -25,7 +26,8 @@ class NewsController extends Controller
      */
     public function create()
     {
-        return view ('layouts.News.add');
+        $catagories = Catagory::orderBy('created_at','dosc')->get();
+        return view ('layouts.News.add')->with('catagories',$catagories);
     }
 
     /**

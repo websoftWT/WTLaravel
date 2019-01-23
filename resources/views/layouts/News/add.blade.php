@@ -25,6 +25,14 @@
                                     <label for="title">Title</label>
                                     <input type="text" name="title" id="title" class="form-control">
                                 </div>
+                            <div class="form-group">
+                                <label for="sel1">Catagory list:</label>
+                                <select class="form-control" id="sel1">
+                                    @foreach($catagories as $i=>$catagory)
+                                    <option>{{ $catagory->title }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
                                 <div class="form-group">
                                     <label for="content">Short Details</label>
                                     <textarea name="short-details" id="short-details" cols="30" rows="10" class="form-control"></textarea>
